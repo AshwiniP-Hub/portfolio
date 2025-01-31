@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infinite Library</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #030712;
+            color: #a0aec0;
+            height: 100vh;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 3rem;
+            color: #c026d3;
+            margin-top: 20px;
+            text-transform: uppercase;
+            text-shadow: 2px 2px #f7fee7;
+        }
+        h3 {
+            text-align: center;
+            font-size: 2rem;
+            color: #c026d3;
+            margin-top: 20px;
+            text-transform: uppercase;
+            text-shadow: 2px 2px #f7fee7;
+        }
+        p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 1rem;
+            font-weight: bold;
+            color: #edf2f7;
+            background-color: #2563eb;
+            border-radius: 8px;
+            text-align: center;
+            text-decoration: none;
+            margin: 5px;
+        }
+
+        .button:hover {
+            background-color: #d53f8c;
+        }
+
+        .section-title {
+            font-size: 1.5rem;
+            color: #84cc16;
+            margin-top: 20px;
+            text-transform: uppercase;
+        }
+
+        .tools button {
+            padding: 8px 15px;
+            font-size: 1rem;
+            font-weight: bold;
+            color: #edf2f7;
+            background-color: #2563eb;
+            border: none;
+            border-radius: 8px;
+            margin: 5px;
+            cursor: pointer;
+        }
+
+        .tools button:hover {
+            background-color: #4299e1;
+        }
+
+        .footer {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .heading {
+            color: #f11e64;
+            font-size: 1.2rem;
+            text-transform: uppercase;
+        }
+        .social-icons img {
+            width: 48px;
+            margin: 0 10px;
+        }
+
+        .short-line {
+            width: 456px;
+            height: 2px;
+            background-color: #4a5568;
+            margin: 10px auto;
+            /* Center the line horizontally */
+        }
+
+        .copyright {
+            margin-top: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .highlight {
+            text-decoration: underline;
+            color: #2563eb;
+        }
+
+        .thank-you {
+            color: #84cc16;
+            font-size: 1.2rem;
+            margin-top: 10px;
+            text-align: center;
+        }
+     td {
+  border:1px solid white;
+  margin: 4px;
+  padding: 12px;
+  
+}
+th{
+  border:1px solid white;
+  margin: 4px;
+  padding: 12px;
+  color: #84cc16;
+}
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Infinite Library </h1>
+        <h3>A Complete E-commerce Bookstore</h3>
+
+
+        <p>This page contains the complete details of Portfolio Open-Source Project which include the Project Overview,
+            Tools Used, and Live Link to the official product.</p>
+
+        <div style="text-align: center; margin-top: 20px;">
+            <a href="https://infinitelibraryapp.vercel.app" class="button">PROJECT LINK</a>
+            <div style="margin-top: 20px;">
+                <img src="/public/infinite_library.png" alt="Portfolio Image" style="max-width: 100%; height: auto;">
+            </div>
+        </div>
+
+        <h2 class="section-title">Project Overview</h2>
+        <div>
+            <p class="heading">Introduction</p>
+            <p>Infinite Library is a dynamic MERN stack-based e-commerce platform designed for book enthusiasts. 
+                This online bookstore provides a seamless and interactive experience, allowing users to explore, 
+                purchase, and manage their favorite books. Built with modern technologies, Infinite Library ensures
+                 smooth performance, a visually appealing interface, and efficient data handling.
+            </p>
+            <p class="heading">Key Highlights</p>
+            <p><b>- Fully Functional User Authentication :</b> Secure login and logout system. <br>
+                <b>- Image Upload & Storage:</b>Images are uploaded using Multer and stored securely in Cloudinary.<br>
+                <b>- Optimized Performance :</b>Built with Vite for a fast and smooth frontend experience.<br>
+                <b>- Real-Time Updates :</b> Instant changes reflected in the UI.<br>
+                <b>- Responsive & Modern UI :</b> Designed with Tailwind CSS & Daisy UI for a visually appealing interface. <br>
+                <b>- Cloud Database :</b> All book data & user data is stored securely in MongoDB Atlas..<br>
+                <b>- Hosted Online  :</b><br> Frontend: Deployed on Vercel <br>
+                Backend: Hosted on Render<br>
+            </p>
+
+            <p class="heading">Technologies Used</p>
+            <table style="width:100%">
+                <tr>
+                  <th>Technology</th>
+                  <th>Purpose</th>
+                </tr>
+                <tr>
+                  <td>React.js (Vite)</td>
+                  <td>Frontend development for fast, efficient UI rendering</td>
+                </tr>
+                <tr>
+                  <td>Tailwind CSS & Daisy UI</td>
+                  <td>Styling and UI components for a modern look</td>
+                </tr>
+                <tr>
+                    <td>Node.js & Express.js</td>
+                    <td>Backend framework for API development</td>
+                  </tr>
+                  <tr>
+                    <td>MongoDB Atlas</td>
+                    <td>Cloud-based NoSQL database for storing user and book data</td>
+                  </tr>
+                  <tr>
+                    <td>Multer</td>
+                    <td>Middleware for handling file uploads (book images)</td>
+                  </tr>
+                  <tr>
+                    <td>Cloudinary</td>
+                    <td>Cloud-based image storage and management</td>
+                  </tr>
+                  <tr>
+                    <td>Postman</td>
+                    <td>API testing and debugging</td>
+                  </tr>
+                  <tr>
+                    <td>Render</td>
+                    <td>Backend hosting service</td>
+                  </tr>
+                  <tr>
+                    <td>Vercel</td>
+                    <td>Frontend hosting service</td>
+                  </tr>
+              </table>
+              <p class="heading">Completed Features  </p>
+              <p><b>- User Authentication :</b> Users can register, log in, and log out securely. <br>
+                <b>- Book Management System:</b>Admins can add, update, and delete books via API.<br>
+                <b>- Image Handling :</b>Multer allows image uploads, and Cloudinary stores them securely.<br>
+                <b>- API Testing with Postman:</b> Ensures smooth API functionality and debugging.<br>
+                <b>- Fully Responsive Design:</b> Optimized for all screen sizes, including mobile and desktop. <br>
+            </p>
+            <p class="heading">Features in Development (Coming Soon!)</p>
+            <p><b> Wishlist Feature:</b> Users can add and remove books from their personal wishlist. <br>
+                <b> Buy Now Functionality:</b>Instant book purchase for a quick and easy checkout.<br>
+                <b>Add to Cart:</b> Users can add books to their cart and proceed to checkout later.<br>
+            </p>
+            <p class="heading">Future Enhancements</p>
+            <p><b>- Payment Gateway Integration :</b> Secure payment processing for book purchases. <br>
+                <b>- User Reviews & Ratings:</b>Users can leave feedback on books.<br>
+                <b>- Order Tracking System:</b>Users can track the status of their book orders.<br>
+                <b>- Admin Dashboard:</b> A separate panel for managing books, orders, and users efficiently.<br>
+            </p>
+     
+            <p class="heading">Conclusion</p>
+            <p>Infinite Library is an innovative online bookstore built using the latest web development technologies.
+                 The project demonstrates my expertise in full-stack MERN development, API handling, UI/UX design,
+                  and cloud storage integration. I am continuously working to enhance its functionality, making it a 
+                  complete and user-friendly e-commerce platform for book lovers worldwide.
+            </p>
+        </div>
+        <h2 class="section-title">Skills Used</h2>
+        <div class="tools">
+            <button>React.js</button>
+            <button>Vite.js</button>
+            <button>Tailwind CSS</button>
+            <button>JavaScript</button>
+            <button>GitHub</button>
+            <button>MangoDB</button>
+            <button>Expree.js</button>
+            <button>Node.js</button>
+            <button>Vercel</button>
+            <button>Cloudinary</button>
+            <button>Vs Code</button>
+            <button>Daisy UI</button>
+            
+        </div>
+        <h2 class="section-title">See Live</h2>
+        <a href="https://infinitelibraryapp.vercel.app/" class="button">PROJECT LINK</a>
+        <a href="https://github.com/AshwiniP-Hub/Infinite-Library" class="button">SOURCE CODE</a>
+        <a href="/index.html" class="button" style="border: 1px solid #fcfcfc;">GO BACK</a>
+    </div>
+    <hr>
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="https://github.com/AshwiniP-Hub" target="_blank"><img src="/public/github.png" alt="GitHub"></a>
+            <a href="https://www.linkedin.com/in/ashwini-patil-5b1522344/" target="_blank"><img
+                    src="/public/linkedin.png" alt="LinkedIn"></a>
+            <a href="https://www.instagram.com/accounts/login/?hl=en" target="_blank"><img src="/public/instagram.png"
+                    alt="Instagram"></a>
+            <a href="https://www.facebook.com/" target="_blank"><img src="/public/facebook.png" alt="Facebook"></a>
+        </div>
+        <div class="short-line"></div>
+        <div class="copyright">
+            <div>
+                <p>&copy; 2025. Made by <span class="highlight">Ashwini Patil</span>. All rights reserved.</p>
+            </div>
+            <div>
+                <p class="thank-you">Thank you for Visiting!</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
