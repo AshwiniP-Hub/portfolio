@@ -15,7 +15,7 @@ import node from "../../public/node.png"
 const Home = () => {
   return (
    <>
-    <div name="Home"  className='max-w-screen-2xl container mx-auto md:px-20 bg-gray-950 px-4 ' >
+    <div name="Home"  className='max-w-screen-2xl container mx-auto md:px-20 bg-gray-950 px-4  py-4' >
       <div className='flex flex-col md:flex-row  '>
          <div className='md:w-1/2 md:mt-24 mt-12 space-y-2 order-2 md:order-1' >
             <span className='md:text-3xl text-xl text-violet-700 ' >Welcome to my digital playground!</span>
@@ -29,20 +29,20 @@ const Home = () => {
         />
             </div>
             <br />
-            <p className='text-xl md:text-md text-justify'>"As a fresh and passionate full stack developer, I thrive on crafting dynamic web experiences from front to back. Explore my projects, delve into my code, and witness my dedication to innovation and problem-solving. Let's build something remarkable together!"</p>
+            <p className='md:text-xl text-lg md:text-md text-justify'>"As a fresh and passionate full stack developer, I thrive on crafting dynamic web experiences from front to back. Explore my projects, delve into my code, and witness my dedication to innovation and problem-solving. Let's build something remarkable together!"</p>
             <br />
             {/* social media icons */}
             <div className='flex flex-col items-center md:flex-row justify-between space-y-6 md:space-y-0 '>
                 <div className='space-y-2'>
                 <h1 className='font-bold text-lg text-center'>Available on </h1>  
                 <div className='flex space-x-5'>
-                    <a href="">
+                    <a href="https://github.com/AshwiniP-Hub">
                       <img src={github} alt="errror" className='size-10' />
                     </a>
-                    <a href="">
+                    <a href="https://www.linkedin.com/in/ashwini-patil-5b1522344">
                     <img src={linkedin} alt="errror" className='size-10' />
                     </a>
-                    <a href="" target="_blank">
+                    <a href="https://www.instagram.com/accounts/login/?hl=en" target="_blank">
                     <img src={instagram} alt="errror" className='size-10' />
                     </a>
                     <a href="https://www.facebook.com/" target="_blank">
@@ -68,8 +68,10 @@ const Home = () => {
            
          </div>
 
-         <div className='md:w-1/2 md:ml-48 md:mt-20  mt-8 order-1 md:order-2'>
-             <img src={pic} className='rounded-full border-4 shadow-xl shadow-violet-700 border-violet-700  w-[450px] h-[450px]' alt="Error" />
+         <div className='md:w-1/2 md:ml-48 md:mt-20  mt-8 order-1 md:order-2 md:py-2 py-8'>
+             <img src={pic} className='rounded-full border-4 shadow-xl shadow-violet-700 border-violet-700
+               w-sm' alt="Error" />
+               {/* w-[450px] h-[450px]  */}
          </div>
       </div>
    </div>

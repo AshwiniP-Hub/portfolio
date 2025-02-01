@@ -14,11 +14,10 @@ const About = () => {
         About
       </h1>
     </div>
-    <hr className="w-10 h-1 mx-auto my-2 bg-teal-600 border-0  rounded md:my-2"></hr>
+    <hr className="w-10 h-1 mx-auto my-2 bg-teal-600 border-0  rounded md:my-2 mb-10"></hr>
     </div>
     {/* ----------------------------------------------------------------------------------------------  */}
-      <div className='flex flex-col justify-center items-center my-8'>
-        <div className='flex gap-16 '>
+      <div className="flex flex-wrap gap-8 mx-20  justify-center items-center ">
           {/* Aboutme image  */}
           <div className="relative group w-64 h-64">
             {/* <!-- Image --> */}
@@ -138,8 +137,6 @@ const About = () => {
               </dialog>
             </div>
           </div>
-        </div>
-        <div className='flex gap-16'>
           {/* --------------------------------------------------------------------------------------------------------------  */}
           {/* Hobbies  */}
           <div className="relative group w-64 h-64">
@@ -250,9 +247,6 @@ const About = () => {
             </div>
           </div>
         </div>
-
-      </div>
-
     </>
   )
 }

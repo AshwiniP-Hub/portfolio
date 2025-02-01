@@ -61,7 +61,7 @@ const Navbar = () => {
                 {/* mobile navbar */}
                 {menu && (
 
-                    <div className='bg-pink-800 text-white ' >
+                    <div className='bg-[#030712] text-white ' >
                         <ul className='md:hidden flex flex-col h-screen items-center justify-center space-y-3 text-3xl '>
                             {navItems.map(({ id, text }) => (
                                 <li className='hover:scale-105 hover:text-green-700 duration-200 font-semibold cursor-pointer' key={id} >
