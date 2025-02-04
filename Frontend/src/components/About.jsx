@@ -7,6 +7,8 @@ const About = () => {
   };
   return (
     <>
+      <br /> 
+   <br />
     <div className='mt-5 bg-gray-950'>
     <hr className="w-10 h-1 mx-auto my-2 bg-teal-600  border-0 rounded  md:my-2"></hr>
      <div className="flex items-center justify-center  ">
@@ -247,7 +249,10 @@ const About = () => {
             </div>
           </div>
         </div>
+      <br /> 
+   <br />
     </>
+   
   )
 }
 
