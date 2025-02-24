@@ -67,10 +67,10 @@ const About = () => {
                 <div className="modal-box w-11/12 max-w-5xl">
                   <h3 className="font-bold text-lg text-black text-center">Education</h3>
                   <p className="py-4 text-black ">
-                    --[2016-2019] B.E (Electronics), Shivaji University, Kolhapur,Maharashtra. with AGR 60 %
-                    --[2014-2016] Diploma (E&TC), Maharashtra State Board of Technical Education. with AGR 72 %
-                    --[2014] HSC, Maharashtra State Board. with 62 %
-                    --[2012] SSC, Maharashtra State Board. with 81 %</p>
+                    --[2016-2019] B.E (Electronics), Shivaji University, Kolhapur,Maharashtra. with AGR 60 % </br>
+                    --[2014-2016] Diploma (E&TC), Maharashtra State Board of Technical Education. with AGR 72 % </br>
+                    --[2014] HSC, Maharashtra State Board. with 62 % </br>
+                    --[2012] SSC, Maharashtra State Board. with 81 %</p> </br>
                   <div className="modal-action">
                     <form method="dialog">
                       {/* if there is a button, it will close the modal */}
